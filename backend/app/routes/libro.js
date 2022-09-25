@@ -3,14 +3,14 @@ const LibroCtrl = require('../controllers/LibroController');
 
 const Router = express.Router();
 
-Router.get('/', LibroCtrl.getAllLibros)
+Router.get('/libros', LibroCtrl.getAllLibros)
 
-Router.post('/', LibroCtrl.createLibro)
+Router.post('/create', LibroCtrl.createLibro)
 
-Router.get('/:key/:value',LibroCtrl.find, LibroCtrl.getshowLibros)
+Router.get('/search/:key/:value',LibroCtrl.find, LibroCtrl.getshowLibros)
 
-Router.put('/:key/:value', LibroCtrl.find, LibroCtrl.updateLibro)
+Router.put('/update/:key/:value', LibroCtrl.find, LibroCtrl.updateLibro)
 
-Router.delete('/:key/:value', LibroCtrl.find, LibroCtrl.deleteLibro)
+Router.delete('/delete/:key/:value', LibroCtrl.find, LibroCtrl.deleteLibro)
 
 module.exports = Router;

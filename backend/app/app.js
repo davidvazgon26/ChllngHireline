@@ -8,6 +8,6 @@ const Libro = require('./routes/libro');
 App.use(bodyParser.json());
 App.use(bodyParser.urlencoded({extended: false}));
 
-App.use('/libro', Libro);
+App.use('/api', Libro);
 
 module.exports = App;
