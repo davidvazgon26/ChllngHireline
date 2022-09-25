@@ -3,7 +3,7 @@ const Libro = require('../models/Libro');
 
 
 function getAllLibros(req, res){
-    Libro.find({}).limit(100)
+    Libro.find({}).limit(200)
         .then(libros => {
             if(libros.length) return res.status(200).send({libros});
             return res.status(204).send({message: "Not content"})

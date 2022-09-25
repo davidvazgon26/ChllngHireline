@@ -56,14 +56,14 @@ function App() {
           placeholder="Busqueda por Titulo, Autor, Año de publicacion o Editor "
           onChange={handleChange}
         />
-        <button className='btn btn-success'>
+        <button className='btn btn-info'>
           <FontAwesomeIcon icon={faSearch}/>
         </button>
       </div>
 
       <div className='table-responsive'>
       <table className='table table-sm table-bordered'>
-      <thead>
+      <thead className='thead-dark' style={{background:"#212529", color:"white"}}>
         <tr>
           <th>ISBN</th>
           <th>Book Title</th>
