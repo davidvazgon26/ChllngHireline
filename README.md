@@ -15,3 +15,6 @@ Opción de menú lateral que enumera todos los autores y año de publicación.
 Asegurarse de que se realicen las llamadas API adecuadas.
 Tecnologías a utilizar: Nodejs, Express, MongoDB.
 Endpoints utilizando GET, PUT, POST y DELETE.
+
+
+### Ojo, readme incluido en cada repo (Back y front)
