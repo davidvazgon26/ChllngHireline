@@ -7,6 +7,8 @@
 
 * delete: localhost:3001/api/delete/:key/:value
 
+* update: localhost:3001/api/search/:key/:value + body{propiedad:"nuevo valor"}
+
 * create: localhost:3001/api/create  + body {}
 
 
@@ -23,6 +25,6 @@
 
 
 
-* update: localhost:3001/api/search/:key/:value + body{propiedad:"nuevo valor"}
+
 
 
