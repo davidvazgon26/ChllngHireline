@@ -12,7 +12,6 @@ create: localhost:3001/api/create  + body {}
 
 `
  {
-      "_id",
       "ISBN",
       "Book-Title",
       "Book-Author",
@@ -26,8 +25,5 @@ create: localhost:3001/api/create  + body {}
 `
 
 update: localhost:3001/api/search/:key/:value + body{propiedad:"nuevo valor"}
-
-
-
 
 
