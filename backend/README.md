@@ -1,7 +1,7 @@
 # Rutas del back
 
 
-* getAll: localhost:3001/api/libros
+* getAll: localhost:3001/api/libros   **(ojo, se limito la carga a 100 elementos, pero se puede modificar el limit en el controller si desean mas resultados...)**
 
 * search: localhost:3001/api/search/:key/:value
 
