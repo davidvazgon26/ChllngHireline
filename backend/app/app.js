@@ -1,7 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors')
 
 const App = express();
+
+App.use(cors())
 
 const Libro = require('./routes/libro');  
 
