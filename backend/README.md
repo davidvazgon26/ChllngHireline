@@ -16,7 +16,7 @@ create: localhost:3001/api/create  + body {}
       "ISBN",
       "Book-Title",
       "Book-Author",
-      "Year-Of-Publication":,
+      "Year-Of-Publication",
       "Publisher",
       "Image-URL-S",
       "Image-URL-M",
