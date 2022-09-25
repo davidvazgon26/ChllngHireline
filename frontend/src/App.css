@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin-top: 15px;
+  padding: 40px 30px;
+  max-width: 100% !important;
 }
 
 .App-logo {
@@ -35,4 +38,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.inputBuscar{
+  width: 50% !important;
+}
+
+table{
+  min-width: 500px;
+}
+
+.containerInput{
+  align-items: end;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 25px;
+}
+
+@media (max-width: 988px){
+  
+  .inputBuscar{
+    width: 100% !important;
+  }
+
+  .App{
+    padding: 40px 5px;
+  }
+
+  
+.containerInput{
+  padding-bottom: 15px;
+}
+
 }
